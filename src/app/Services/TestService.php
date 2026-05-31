@@ -1,6 +1,6 @@
 <?php
 
-namespace App\TestServices;
+namespace App\Services;
 
 class TestService
 {
