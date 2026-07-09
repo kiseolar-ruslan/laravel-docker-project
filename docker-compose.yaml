@@ -36,10 +36,3 @@ services:
       MYSQL_PASSWORD:      ${MYSQL_PASSWORD:-pass4dbuser}
     volumes:
       - ./docker/databases/mysql_dump:/docker-entrypoint-initdb.d
-
-#  composer:
-#    build:
-#      context: ./
-#      dockerfile: docker/configs/composer/composer.Dockerfile
-#    volumes:
-#      - ./src:/var/www/laravel

@@ -8,7 +8,7 @@ class RegisterContoller extends Controller
 {
     public function index()
     {
-        dd('Show Registration Page');
+        return view('registration.index');
     }
 
     public function store()
